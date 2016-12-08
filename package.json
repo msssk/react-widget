@@ -1,0 +1,32 @@
+{
+  "name": "react-widget",
+  "version": "1.0.0",
+  "description": "React Dojo Widget wrapper",
+  "main": "main.js",
+  "author": "Mangala SSS Khalsa",
+  "license": "MIT",
+  "dependencies": {
+    "@reactivex/rxjs": "^5.0.0-beta.6",
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "dojo-compose": "^2.0.0-beta.18",
+    "dojo-core": "^2.0.0-alpha.17",
+    "dojo-has": "^2.0.0-alpha.6",
+    "dojo-interfaces": "^2.0.0-alpha.8",
+    "dojo-shim": "^2.0.0-beta.6",
+    "dojo-stores": "^2.0.0-alpha.6",
+    "dojo-widgets": "^2.0.0-alpha.14",
+    "maquette": "^2.4.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "umd-compat-loader": "^1.0.3",
+    "webpack": "^1.13.3"
+  },
+  "scripts": {
+    "watch": "webpack -d --watch",
+    "build": "webpack -p"
+  }
+}

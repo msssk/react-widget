@@ -1,0 +1,10 @@
+*.js.map
+/_build
+/bower_components
+/dist
+/html-report
+/node_modules
+/typings
+.baseDir.ts
+coverage-unmapped.json
+npm-debug.log
